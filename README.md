@@ -1,6 +1,11 @@
 # PEARL
 Persona Emulating Adaptive Research and Learning Bot
 
+PEARL is a unique tool that can become a persona given by you, allowing it to be interviewed by student-researchers for educational purposes. This chatbot has long-term memory enabled by Langchain. 
+
+# Recogniation
+This project is funded by the 2023 Werklund School (University of Calgary) Teaching and Learning Support Grant.
+
 ## To run a Python code, you can follow these instructions:
 
 1. Clone the GitHub repository to your local machine using the command:
