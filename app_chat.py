@@ -3,6 +3,7 @@ import openai
 import streamlit as st
 import streamlit_ext as ste
 import json
+from streamlit_chat import message
 
 #langchain libraries
 from langchain import PromptTemplate
@@ -26,7 +27,7 @@ hide_st_style = """
             header {visibility: hidden;}
         </style>
 """
-#st.markdown(hide_st_style, unsafe_allow_html=True)
+st.markdown(hide_st_style, unsafe_allow_html=True)
 
 #functions
 def get_text():
@@ -168,25 +169,25 @@ conversation = ConversationChain(llm=llm, prompt=prompt, memory=st.session_state
 placeholder_1 = st.empty()
 placeholder_1.subheader("Step 2:")
 #Get input chat bot
-user_input = get_text()
+user_input =st.text_input("User:", key='input')
+conversations = []
 
 
 #Chat process
 if st.button("Send!"):
     if user_input is not None:
         placeholder_1.empty()
-        
         with st.spinner("Responding..."):
-        
             output = conversation.run(input=user_input)
             st.session_state['past'].append(user_input)
             st.session_state['generated'].append(output)
             conversations = [(st.session_state['past'][i], st.session_state["generated"][i]) for i in range(len(st.session_state['generated']))]
 
-        with st.expander("conversation:", expanded=True):
-            for i in range(len(st.session_state['generated'])-1,-1,-1):
-                st.info(st.session_state["past"][i], icon='🎓') 
-                st.success (st.session_state["generated"][i], icon="🤖")
+    if st.session_state['generated']:
+        for i in range(len(st.session_state['generated'])-1, -1, -1):
+            message(st.session_state["generated"][i], key=str(i))
+            message(st.session_state['past'][i], is_user=True, key=str(i) + '_user')
+
     st.markdown("""___""")
     if conversations:
         conversations_str = json.dumps(conversations)
