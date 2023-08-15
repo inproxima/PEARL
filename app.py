@@ -138,7 +138,7 @@ api = openai.api_key
 
 
 #Langchain settings
-llm = ChatOpenAI(temperature=0.7, openai_api_key=api, model_name="gpt-3.5-turbo", request_timeout=120)
+llm = ChatOpenAI(temperature=0.7, openai_api_key=api, model_name="gpt-4", request_timeout=120)
 memory = ConversationBufferMemory(memory_key="chat_history", input_key="input")
 
 #Session_state memory
