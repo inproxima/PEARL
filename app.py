@@ -50,14 +50,14 @@ st.sidebar.header("About")
 st.sidebar.markdown(
 """
 This application was created by [Soroush Sabbaghan](mailto:ssabbagh@ucalgary.ca) using [Streamlit](https://streamlit.io/) and [LangChain](https://github.com/hwchase17/langchain). It is powered by [OpenAI API](https://openai.com/api/)'s 
-[ChatGPT API](https://platform.openai.com/docs/models/overview) for educational purposes. 
+[GPT-4 API](https://platform.openai.com/docs/models/overview) for educational purposes. 
 """
 )
 
 st.sidebar.header("Copyright")
 st.sidebar.markdown(
 """
-This work is licensed under a [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/)
+This work has the following license: [NonCommercial-NoDerivatives 4.0 International](https://creativecommons.org/licenses/by-nc-nd/4.0)
 """
 )
 
