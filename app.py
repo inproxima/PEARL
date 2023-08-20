@@ -64,7 +64,7 @@ This work has the following license: [NonCommercial-NoDerivatives 4.0 Internatio
 st.sidebar.header("Version")
 st.sidebar.markdown(
 """
-May 7th, 2023 Version (5)
+August 7th, 2023 Version (6)
 """
 )
 
