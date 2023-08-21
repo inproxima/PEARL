@@ -82,7 +82,7 @@ if "stored_session" not in st.session_state:
 st.title("Hi! I'm PEARL 👋")
 st.subheader("Persona Emulating Adaptive Research and Learning Bot")
 st.markdown("""___""")
-st.write("🤖 Hello, my name is PEARL. I am an AI program designed to simulate a particular persona and engage in conversations with humans. My purpose is to assist researchers in conducting interviews and gathering insights on reseach foci. I am constantly learning and adapting to new situations, so feel free to ask the persona you give me anything related to the research topic. Let's have a productive conversation together!")
+st.write("🤖 Hello, my name is PEARL. I am an AI program designed to simulate a particular persona and engage in conversations with humans. My purpose is to assist researchers in conducting interviews and gathering insights on research foci. I am constantly learning and adapting to new situations, so feel free to ask the persona you give me anything related to the research topic. Let's have a productive conversation together!")
 st.divider()
 
 #st.subheader("Step 1:")
