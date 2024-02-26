@@ -56,7 +56,7 @@ This work has the following license: [NonCommercial-NoDerivatives 4.0 Internatio
 st.sidebar.header("Version")
 st.sidebar.markdown(
 """
-September 28th, 2023 Version (7)
+February 25th, 2024 Version (8)
 """
 )
 #Page design and input
@@ -65,11 +65,6 @@ st.subheader("Persona Emulating Adaptive Research and Learning Bot")
 st.markdown("""___""")
 st.write("🤖 Hello, my name is PEARL. I am an AI program designed to simulate a particular persona and engage in conversations with humans. My purpose is to assist researchers in conducting interviews and gathering insights on research foci. I am constantly learning and adapting to new situations, so feel free to ask the persona you give me anything related to the research topic. Let's have a productive conversation together!")
 st.divider()
-
-#st.subheader("Step 1:")
-#st.subheader("Please input your OpenAI API key:")
-##url = "https://help.openai.com/en/articles/4936850-where-do-i-find-my-secret-api-key"
-#api = st.text_input("If you don't know your OpenAI API key click [here](%s)." % url, type="password", placeholder="Your API Key")
 
 st.warning("""
             **Instructions:** When creating a persona description for a chatbot to be interviewed by a researcher, consider the age, gender, occupation, and personality traits of the persona. Use clear and concise language, avoid technical jargon, and keep the tone and voice consistent throughout the description.
