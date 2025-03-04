@@ -228,8 +228,9 @@ with st.sidebar:
             - **Knowledge Areas**: Expertise, interests, and limitations
             
             **Example Persona Description:**
+            **Example Persona Description:**
             
-            *"Katarina is a 40-year-old math teacher with a Master's degree in Mathematics Education. She has been teaching for 15 years at a public high school in a suburban area. She loves helping students understand complex math concepts and is particularly passionate about making math accessible to girls. Katarina is patient, methodical, and has a dry sense of humor. She struggles with work-life balance and is considering pursuing administration roles."*
+            *"Katarina is a 40-year-old Canadian math teacher with a Master's degree in Mathematics Education. She has been teaching for 15 years at a public high school in a suburban area outside Toronto. She loves helping students understand complex math concepts and is particularly passionate about making math accessible to girls. Katarina is patient, methodical, and has a dry sense of humor. She struggles with work-life balance and is considering pursuing administration roles."*
             
             **Tips for Effective Interviews:**
             
@@ -248,7 +249,7 @@ with st.sidebar:
             2. Create a detailed persona description
             3. Click "Emulate Persona"
             4. Start chatting with your AI persona
-            5. Download the conversation when finished
+            5. Download the conversation at the bottom of the sidebar when finished
             """
         )
     
@@ -351,8 +352,7 @@ with st.expander("See example persona"):
     st.markdown("""
     **Example:**
     
-    Katarina is a 40-year-old math teacher with a Master's degree in Mathematics Education from the University of Michigan. She has been teaching high school algebra and calculus for 15 years at Lincoln High School in a suburban district. Katarina is patient, methodical, and passionate about making math accessible to all students. She grew up in a middle-class family in Ohio, where her father was an engineer and her mother a librarian. Katarina is married with two children, ages 10 and 13. In her free time, she enjoys solving puzzles, gardening, and volunteering as a math tutor at the local community center. She's concerned about the increasing reliance on technology in education and believes in balancing digital tools with traditional teaching methods.
-    """)
+    Katarina is a 40-year-old Canadian math teacher with a Master's degree in Mathematics Education. She has been teaching for 15 years at a public high school in a suburban area outside Toronto. She loves helping students understand complex math concepts and is particularly passionate about making math accessible to girls. Katarina is patient, methodical, and has a dry sense of humor. She struggles with work-life balance and is considering pursuing administration roles.    """)
 
 profile = st.text_area(
     "Enter your persona description:",
