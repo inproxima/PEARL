@@ -17,12 +17,12 @@ filetype==1.2.0
 frozenlist==1.5.0
 gitdb==4.0.12
 GitPython==3.1.44
-google-ai-generativelanguage==0.6.10
+google-ai-generativelanguage
 google-api-core==2.24.1
 google-api-python-client==2.162.0
 google-auth==2.38.0
 google-auth-httplib2==0.2.0
-google-generativeai==0.8.2
+google-generativeai=
 googleapis-common-protos==1.69.0
 groq==0.18.0
 grpcio==1.70.0
@@ -44,7 +44,7 @@ langchain-anthropic==0.3.8
 langchain-community==0.3.18
 langchain-core==0.3.40
 langchain-deepseek==0.1.2
-langchain-google-genai==2.0.11
+langchain-google-genai
 langchain-groq==0.2.4
 langchain-openai==0.3.7
 langchain-text-splitters==0.3.6
